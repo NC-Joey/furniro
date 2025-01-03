@@ -187,6 +187,12 @@
     background-color: #B88E2F;
 }
 
+.block1 button:hover {
+    border: 2px solid #B88E2F;
+    color: #B88E2F !important;
+
+}
+
 .overlay-block {
     background-color: #FFFFFFB8;
     backdrop-filter: blur(1px)
@@ -232,7 +238,7 @@
 }
 
 footer {
-    padding: 2.5rem 3rem 1rem 3rem;
+    padding: 2.5rem 3rem 0 3rem;
     border-top: 1px solid #0000002B
 }
 
@@ -284,7 +290,11 @@ hr {
     }
 
     footer {
-        padding: 2.5rem 5rem 1rem 5rem;
+        padding: 2.5rem 5rem 0 5rem;
+    }
+
+    .brand-details p {
+        width: 75%;
     }
 }
 
@@ -386,7 +396,7 @@ hr {
     }
 
     footer {
-        padding: 2rem 2rem .5rem 2rem;
+        padding: 2rem 2rem 0 2rem;
     }
 
     .brand-details h4 {
@@ -487,7 +497,7 @@ hr {
     }
 
     footer {
-        padding: 2rem 1rem 1rem 1rem
+        padding: 2rem 1rem 0 1rem
     }
 
     .newsletter {
